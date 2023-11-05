@@ -75,6 +75,7 @@ do {
         ;
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"));
+            process.exit();
         }
         ;
     }
@@ -115,6 +116,7 @@ do {
         ;
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"));
+            process.exit();
         }
         ;
     }
@@ -155,6 +157,7 @@ do {
         ;
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"));
+            process.exit();
         }
         ;
     }
@@ -195,6 +198,7 @@ do {
         ;
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"));
+            process.exit();
         }
         ;
     }

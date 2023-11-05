@@ -5,7 +5,7 @@ import chalk from "chalk";
 
 class Player {
     name: string
-    power: number = 100
+    power: number = 100;
     constructor(name: string) {
         this.name = name
     }
@@ -83,6 +83,7 @@ do {
 
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"))
+            process.exit()
         };
     }
     //Chun-li
@@ -123,6 +124,7 @@ do {
 
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"))
+            process.exit()
         };
     }
     //E-Honda
@@ -163,6 +165,7 @@ do {
 
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"))
+            process.exit()
         };
     }
     //Blanka
@@ -203,6 +206,7 @@ do {
 
         if (ask.opt == "Save Your Life") {
             console.log(chalk.red.bold("You loose Better Luck Next Time"))
+            process.exit()
         };
     }
 }
